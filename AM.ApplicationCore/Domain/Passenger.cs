@@ -19,7 +19,12 @@ namespace AM.ApplicationCore.Domain
             return "FirstName: " + FirstName + " LastName: " + LastName + " date of Birth: " + BirthDate + " Passport Number: " + PassportNumber + " Phone Number: " + TelNumber + " Email Address: " + EmailAddress;
         }
 
-        public bool CheckProfile(string firstName, string lastName, string? email)
+        public bool CheckProfile(string firstName, string lastName)
+        {
+            return this.FirstName == firstName && this.LastName == lastName;
+        }
+
+        public bool CheckProfile(string firstName, string lastName, string email)
         {
             if (email != null)
                 return FirstName == firstName && LastName == lastName &&
