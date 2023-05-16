@@ -16,5 +16,7 @@ namespace AM.ApplicationCore.Interfaces
         public void ShowFlightDetails(Plane plane);
 
         public IList<Flight> OrderedDurationFlights();
+
+        public IList<Traveller> SeniorTravellers(Flight flight);
     }
 }

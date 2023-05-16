@@ -17,6 +17,9 @@ namespace AM.ApplicationCore.Domain
         public float EstimatedDuration { get; set; }
         public IList<Passenger>? Passengers { get; set; }
         public Plane? Plane { get; set; }
+
+        public string Airline { get; set; }
+
         public override string ToString()
         {
             return "FlightId: " + FlightId + " FlightDate: " + FlightDate + " EstimatedDuration: " + EstimatedDuration + " EffectiveArrival: " + EffectiveArrival + " Departure: " + Departure + " Destination: " + Destination;

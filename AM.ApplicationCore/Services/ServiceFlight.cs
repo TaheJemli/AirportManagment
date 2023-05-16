@@ -166,7 +166,7 @@ namespace AM.ApplicationCore.Services
             return query.Passengers.OfType<Traveller>().ToList().OrderBy(p => p.BirthDate).Take(3).ToList();
         }
 
-        public List<Traveller> SeniorTravellers2(Flight flight)
+        public List<Traveller> SeniorTravellersB(Flight flight)
         {
             var query = from x in flight.Passengers.OfType<Traveller>()
                         orderby x.BirthDate ascending
