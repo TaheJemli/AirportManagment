@@ -16,11 +16,11 @@ namespace AM.ApplicationCore.Domain
         public int FlightId { get; set; }
         public DateTime EffectiveArrival { get; set; }
         public float EstimatedDuration { get; set; }
-        public IList<Passenger>? Passengers { get; set; }
+        virtual public IList<Passenger>? Passengers { get; set; }
 
-        [ForeignKey("PlaneId")]
-        public int? PlaneId { get; set; }
-        public Plane? Plane { get; set; }
+        //[ForeignKey("PlaneId")]
+        virtual public int? PlaneId { get; set; }
+        virtual public Plane? Plane { get; set; }
 
         public string Airline { get; set; }
 

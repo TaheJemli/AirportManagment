@@ -18,14 +18,14 @@ Plane p3 = new Plane()
 { Capacity = 500, PlaneType = PlaneType.Airbus, ManufactureDate = DateTime.Now };
 Console.WriteLine(p3.ToString());
 
-Passenger pass1 = new Passenger
-{
-    FirstName = "taha",
-    LastName = "jemli",
-    EmailAddress = "taha.jemli@esprit.tn"
-};
+//Passenger pass1 = new Passenger
+//{
+//    FirstName = "taha",
+//    LastName = "jemli",
+//    EmailAddress = "taha.jemli@esprit.tn"
+//};
 
-Console.WriteLine(pass1.CheckProfile("taha", "jemli"));
-pass1.PassangerType();
-Staff stf = new Staff();
-stf.PassangerType();
+//Console.WriteLine(pass1.CheckProfile("taha", "jemli"));
+//pass1.PassangerType();
+//Staff stf = new Staff();
+//stf.PassangerType();

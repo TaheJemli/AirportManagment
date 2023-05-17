@@ -3534,11 +3534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taha\\Documents\\DotNet\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Taha\\Desktop\\.NET\\AirportManagment\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "projectName": "AM.Infrastructure",
-      "projectPath": "C:\\Users\\Taha\\Documents\\DotNet\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Taha\\Desktop\\.NET\\AirportManagment\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taha\\Documents\\DotNet\\AirportManagement\\AM.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Taha\\Desktop\\.NET\\AirportManagment\\AM.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3555,8 +3555,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Taha\\Documents\\DotNet\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Taha\\Documents\\DotNet\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\Taha\\Desktop\\.NET\\AirportManagment\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Taha\\Desktop\\.NET\\AirportManagment\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             }
           }
         }

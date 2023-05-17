@@ -16,7 +16,7 @@ namespace AM.ApplicationCore.Domain
         public int Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }
         public PlaneType PlaneType { get; set; }
-        public IList<Flight>? Flights { get; set; }
+        virtual public IList<Flight>? Flights { get; set; }
         public override string ToString()
         {
             return "PlaneId: " + PlaneId + " Plane Type: " + PlaneType + " Manufacture Date: " + ManufactureDate + " Capacity: " + Capacity;
